@@ -8,8 +8,8 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class GunmaChan extends Game {
 	// Temporary values
-	public static int WIDTH = 480;
-	public static int HEIGHT = 720;
+	public static int WIDTH = 600;
+	public static int HEIGHT = 1024;
 
 	public static final String TITLE = "Gunma-chan Game";
 
