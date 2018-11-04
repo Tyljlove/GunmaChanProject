@@ -24,6 +24,8 @@ public class GunmaChan extends Game {
 		Gdx.gl.glClearColor(0.8f, 0.8f, 0.8f, 1); // Does not need to happen each tick
 	}
 
+	// this is where game logic goes
+	// draw everything
 	@Override
 	public void render () {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT); // DOES need to happen each tick

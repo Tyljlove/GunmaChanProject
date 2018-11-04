@@ -94,7 +94,7 @@ public final class VocabDb {
      * @return itemIds
      */
     public List viewDb() {
-        List itemIds = new ArrayList<>();
+        List<Long> itemIds = new ArrayList<Long>();
             Cursor cursor = dbSelectRecords();
             while (cursor.moveToNext()) {
                 long itemId = cursor.getLong(
